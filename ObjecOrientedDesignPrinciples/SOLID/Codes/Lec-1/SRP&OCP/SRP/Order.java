@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Order {
+public class Order {
     private List<String> items;
     private List<Integer> quantities;
     private List<Double> prices;

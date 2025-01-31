@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-class Order {
+public class Order {
     private List<String> items;
     private List<Integer> quantities;
     private List<Double> prices;
@@ -85,20 +85,3 @@ class UPIPaymentProcessor implements PaymentProcessor {
 // }
 // }
 // }
-
-class Main {
-    public static void main(String[] args) {
-        Order order = new Order();
-        order.addItem("Keyboard", 1, 50);
-        order.addItem("SSD", 1, 150);
-        order.addItem("USB cable", 2, 5);
-
-        System.out.println(order.totalPrice());
-
-        // PaymentProcessor processor = new PaymentProcessor();
-        // processor.pay(order, "0372846", "debit");
-
-        PaymentProcessor processor = new DebitPaymentProcessor();
-        processor.pay(order, "y3743y7");
-    }
-}
