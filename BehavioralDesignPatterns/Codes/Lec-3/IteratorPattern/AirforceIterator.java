@@ -2,7 +2,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class AirforceIterator implements CoustomIterator {
-
     // main logic yaha rahega, k kaise different type of data
     // joki airforce k andar hai, usko same iterator se traverse kia
     // jaa sake
