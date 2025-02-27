@@ -10,7 +10,6 @@ public class Boeing implements IAircraft, IObserver{
         //land krne k baad, unsubscribe the SUBJECT
         System.out.println("Landed");
         tower.removeObserver(this);
-
     }
 
     @Override
