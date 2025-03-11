@@ -7,9 +7,9 @@ public class Notification {
     private String notificationContent;
     private Date creationTime;
 
-    public void sendInviteNotification() {}
-    public void sendCancelNotification() {
-
+    public void sendInviteNotification() {
     }
 
+    public void sendCancelNotification() {
+    }
 }

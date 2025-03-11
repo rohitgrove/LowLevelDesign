@@ -11,7 +11,8 @@ public class Meeting {
     private User sender;
 
     public void addInMeeting(List<User> attendees) {
-
     }
-    public void removeFromMeeting(User user) {}
+
+    public void removeFromMeeting(User user) {
+    }
 }

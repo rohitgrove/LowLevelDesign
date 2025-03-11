@@ -8,18 +8,18 @@ public class MeetingSchedulingSystem {
     private List<MeetingRoom> rooms;
 
     private static MeetingSchedulingSystem schedulingSystemInstance = null;
-    private MeetingSchedulingSystem() {}
+
+    private MeetingSchedulingSystem() {
+    }
 
     public static MeetingSchedulingSystem getInstance() {
-        if(schedulingSystemInstance == null) {
+        if (schedulingSystemInstance == null) {
             schedulingSystemInstance = new MeetingSchedulingSystem();
         }
         return schedulingSystemInstance;
     }
 
-
     public void addRoom() {
-
 
     }
 
@@ -28,12 +28,11 @@ public class MeetingSchedulingSystem {
     }
 
     public void scheduleMeeting(List<User> user, Interval interval) {
-        //request ko delegate karre ho
+        // request ko delegate karre ho
         scheduler.scheduleMeeting(user, interval);
     }
+
     public void cancelMeeting() {
 
     }
-
-
 }

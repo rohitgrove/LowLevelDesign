@@ -11,5 +11,4 @@ public class User {
     public void respondToInvitation(Notification message) {}
     public void respondToMeeting() {}
     public void checkCalendar() {}
-
 }

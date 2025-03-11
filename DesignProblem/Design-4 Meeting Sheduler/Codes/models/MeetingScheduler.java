@@ -9,33 +9,33 @@ public class MeetingScheduler {
 
     private static MeetingScheduler schedulerInstance = null;
 
-    private MeetingScheduler() {}
+    private MeetingScheduler() {
+    }
 
     public static MeetingScheduler getInstance() {
-        if(schedulerInstance == null ) {
+        if (schedulerInstance == null) {
             schedulerInstance = new MeetingScheduler();
         }
         return schedulerInstance;
     }
 
-
     public boolean scheduleMeeting(List<User> user, Interval interval) {
-        //dummy
+        // dummy
         return true;
     }
+
     public boolean cancelMeeting(List<User> user, Interval interval) {
-        //dummy
+        // dummy
         return true;
     }
+
     public boolean bookRoom(MeetingRoom room, int numberOfPerson, Interval interval) {
-        //dummy
+        // dummy
         return true;
     }
+
     public boolean releaseRoom(MeetingRoom room, Interval interval) {
-        //dummy
+        // dummy
         return true;
     }
-
-
-
 }
