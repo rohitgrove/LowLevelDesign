@@ -3,5 +3,5 @@ public interface Subject {
 
     public void detach(Observer observer);
 
-    public void notif(); // Note: In Java, notify() is a method in Object class, consider renaming in real code
+    public void Notify(); // Note: In Java, notify() is a method in Object class, consider renaming in real code
 }

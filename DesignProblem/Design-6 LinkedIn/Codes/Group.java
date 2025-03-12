@@ -25,7 +25,7 @@ public class Group implements Subject {
     }
     
     @Override
-    public void notif() {
+    public void Notify() {
         // Loop over members
         for (Observer observer : members) {
             observer.update("Hey new post in the group");
