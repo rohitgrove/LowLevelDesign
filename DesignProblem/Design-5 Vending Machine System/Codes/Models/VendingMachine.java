@@ -3,7 +3,6 @@ package Models;
 import java.util.List;
 
 public class VendingMachine {
-
     private NoMoneyInsertedState noMoneyState = new NoMoneyInsertedState(this);
     private MoneyInsertedState moneyState = new MoneyInsertedState(this);
     private DispenseProductState dispenseProductState = new DispenseProductState(this);
