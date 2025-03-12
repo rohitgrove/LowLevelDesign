@@ -7,11 +7,12 @@ public class Rack {
     private List<Slot> slots;
 
     public boolean addProduct(Product product, int slotId) {
-        //dummy nature
+        // dummy nature
         return true;
     }
+
     public boolean removeProduct(Product product, int slotId) {
-        //dummy nature
+        // dummy nature
         return true;
     }
 }

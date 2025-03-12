@@ -1,11 +1,12 @@
 package Models;
 
-public class DispenseProductState implements IState{
+public class DispenseProductState implements IState {
     VendingMachine system;
 
     DispenseProductState(VendingMachine machine) {
         system = machine;
     }
+
     @Override
     public void insertMoney(VendingMachine machine, double amount) {
 
@@ -28,7 +29,7 @@ public class DispenseProductState implements IState{
 
     @Override
     public void dispenseProduct(VendingMachine machine, int slotNumber) {
-        //after giving product
-        //change state -> NoMoneyInsertedState
+        // after giving product
+        // change state -> NoMoneyInsertedState
     }
 }

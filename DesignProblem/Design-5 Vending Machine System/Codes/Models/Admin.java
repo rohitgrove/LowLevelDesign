@@ -5,12 +5,18 @@ public class Admin {
     private String adminKey;
     private int id;
 
-    //TODO: H/W -> fill in the inputParameters below
-    public void login() {}
-    public void logout() {}
-    public void addProduct() {}
-    public void removeProduct() {}
-    public void collectCash() {}
+    public void login(String id) {
+    }
 
+    public void logout() {
+    }
 
+    public void addProduct(String productName) {
+    }
+
+    public void removeProduct(String productName) {
+    }
+
+    public void collectCash() {
+    }
 }

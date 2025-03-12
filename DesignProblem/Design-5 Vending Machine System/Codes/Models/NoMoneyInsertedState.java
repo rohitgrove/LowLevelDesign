@@ -1,16 +1,16 @@
 package Models;
 
-public class NoMoneyInsertedState implements IState{
-
+public class NoMoneyInsertedState implements IState {
     VendingMachine system;
 
     NoMoneyInsertedState(VendingMachine machine) {
         system = machine;
     }
+
     @Override
     public void insertMoney(VendingMachine machine, double amount) {
-        //change state -> moneyInsertedState
-        //system.setState(system.getMoneyInsertedState());
+        // change state -> moneyInsertedState
+        // system.setState(system.getMoneyInsertedState());
     }
 
     @Override

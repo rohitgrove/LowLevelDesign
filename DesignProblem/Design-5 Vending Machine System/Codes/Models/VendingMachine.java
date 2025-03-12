@@ -16,10 +16,11 @@ public class VendingMachine {
 
     private static VendingMachine machineInstance = null;
 
-    private VendingMachine() {}
+    private VendingMachine() {
+    }
 
     public static VendingMachine getInstance() {
-        if(machineInstance == null) {
+        if (machineInstance == null) {
             machineInstance = new VendingMachine();
         }
         return machineInstance;
@@ -32,9 +33,11 @@ public class VendingMachine {
     public NoMoneyInsertedState getNoMoneyInsertedState() {
         return noMoneyState;
     }
+
     public MoneyInsertedState getMoneyInsertedState() {
         return moneyState;
     }
+
     public DispenseProductState getDispenseProductState() {
         return dispenseProductState;
     }
@@ -42,25 +45,42 @@ public class VendingMachine {
     public void selectProduct(int slotNumber) {
 
     }
+
     public void insertMoney(double amount) {
 
     }
+
     public void pressButton(int slotNumber) {
 
     }
+
     public void updateInventory(int slotNumber) {
 
     }
+
     public void dispenseProduct(int slotNumber) {
 
     }
+
     public void returnChange(double amount) {
 
     }
-    public void showErrorMsg() {}
-    public void addAdmin(Admin user) {}
-    public void removeAdmin(Admin user) {}
-    public void validateAdmin(Admin user) {}
-    public void openCashDispenser() {}
-    public void searchProduct(Product item) {}
+
+    public void showErrorMsg() {
+    }
+
+    public void addAdmin(Admin user) {
+    }
+
+    public void removeAdmin(Admin user) {
+    }
+
+    public void validateAdmin(Admin user) {
+    }
+
+    public void openCashDispenser() {
+    }
+
+    public void searchProduct(Product item) {
+    }
 }
