@@ -1,9 +1,9 @@
 package models.observer;
 
 public interface Subject {
-    void addObserver(Observer obs);
+    public void addObserver(Observer obs);
 
-    void removeObserver(Observer obs);
+    public void removeObserver(Observer obs);
 
-    void notifyObservers();
+    public void notifyObservers();
 }
