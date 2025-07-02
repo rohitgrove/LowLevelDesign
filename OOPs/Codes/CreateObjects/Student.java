@@ -19,7 +19,7 @@ public class Student {
         this.nos = nos;
     }
 
-    // Copy
+    // Copy ctor
     public Student(Student srcobj) { // srcobj -> A
         System.out.println("Student Copy ctor Called");
         this.id = srcobj.id;
