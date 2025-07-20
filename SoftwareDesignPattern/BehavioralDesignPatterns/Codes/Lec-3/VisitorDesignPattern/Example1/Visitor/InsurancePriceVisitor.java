@@ -1,5 +1,4 @@
 public class InsurancePriceVisitor implements ICarVisitor {
-
     // mutiple viist functions specific to car type present below
 
     @Override
