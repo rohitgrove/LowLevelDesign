@@ -10,8 +10,7 @@ public class Main {
             int destX = 100;
             int destY = 515;
             int speed = 15;
-            System.out.println("Time: " +
-                    plane.getTotalTimeToReachDestination(srcX, srcY, destX, destY, speed));
+            System.out.println("Time: " + plane.getTotalTimeToReachDestination(srcX, srcY, destX, destY, speed));
         }
     }
 }
