@@ -1,5 +1,4 @@
 public class Tejas implements IAircraft {
-
     // intrinsic property
     private final String name = "Tejas";
     private final int seater = 2;
