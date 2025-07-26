@@ -4,7 +4,6 @@ import Interface.Account;
 import Interface.ParkingSpot;
 
 public class AdminAccount extends Account {
-
     //khud ki kuch poperties bhi hongi vo add kardo
     public boolean addParkingSpot(ParkingSpot spot) {
         //add your impl here

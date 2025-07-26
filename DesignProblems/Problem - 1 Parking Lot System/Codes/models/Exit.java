@@ -6,4 +6,12 @@ public class Exit {
     public void validateTicket(ParkingTicket ticket) {
         // add ypur own impklemnetaion here
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
 }

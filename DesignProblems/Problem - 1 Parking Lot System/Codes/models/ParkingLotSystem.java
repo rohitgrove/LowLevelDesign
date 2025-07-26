@@ -51,4 +51,80 @@ public class ParkingLotSystem {
         return false;
     }
     // add more methods here
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public int getMAX_CAPACTIY() {
+        return MAX_CAPACTIY;
+    }
+
+    public ParkingRate getParkingRate() {
+        return parkingRate;
+    }
+
+    public void setParkingRate(ParkingRate parkingRate) {
+        this.parkingRate = parkingRate;
+    }
+
+    public HashMap<String, Entrance> getEntrances() {
+        return entrances;
+    }
+
+    public void setEntrances(HashMap<String, Entrance> entrances) {
+        this.entrances = entrances;
+    }
+
+    public HashMap<String, Exit> getExits() {
+        return exits;
+    }
+
+    public void setExits(HashMap<String, Exit> exits) {
+        this.exits = exits;
+    }
+
+    public HashMap<String, DisplayBoard> getDisplayBoards() {
+        return displayBoards;
+    }
+
+    public void setDisplayBoards(HashMap<String, DisplayBoard> displayBoards) {
+        this.displayBoards = displayBoards;
+    }
+
+    public HashMap<String, ParkingTicket> getParkingTickets() {
+        return parkingTickets;
+    }
+
+    public void setParkingTickets(HashMap<String, ParkingTicket> parkingTickets) {
+        this.parkingTickets = parkingTickets;
+    }
+
+    public HashMap<String, ParkingSpot> getParkingSpots() {
+        return parkingSpots;
+    }
+
+    public void setParkingSpots(HashMap<String, ParkingSpot> parkingSpots) {
+        this.parkingSpots = parkingSpots;
+    }
 }

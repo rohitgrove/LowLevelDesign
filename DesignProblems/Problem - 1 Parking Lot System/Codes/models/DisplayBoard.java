@@ -25,4 +25,20 @@ public class DisplayBoard {
     public void addParkingSlot(String spotType, List<ParkingSpot> spots) {
         // add your own impl here
     }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Map<String, List<ParkingSpot>> getParkingSpots() {
+        return parkingSpots;
+    }
+
+    public void setParkingSpots(Map<String, List<ParkingSpot>> parkingSpots) {
+        this.parkingSpots = parkingSpots;
+    }
 }
