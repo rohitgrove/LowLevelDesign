@@ -1,0 +1,44 @@
+package models;
+
+import Interface.ParkingSpot;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class DisplayBoard {
+    private int id;
+    private Map<String, List<ParkingSpot>> parkingSpots;
+
+    // constructor
+    public DisplayBoard(int id) {
+        this.id = id;
+        parkingSpots = new HashMap<>();
+    }
+
+    // functions
+    public void showFree() {
+    }
+
+    public void sendParkingFullNotification() {
+    }
+
+    public void addParkingSlot(String spotType, List<ParkingSpot> spots) {
+        // add your own impl here
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Map<String, List<ParkingSpot>> getParkingSpots() {
+        return parkingSpots;
+    }
+
+    public void setParkingSpots(Map<String, List<ParkingSpot>> parkingSpots) {
+        this.parkingSpots = parkingSpots;
+    }
+}
