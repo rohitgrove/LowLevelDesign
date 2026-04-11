@@ -1,5 +1,5 @@
 package constants;
 
 public enum AccountStatus {
-    ACTIVE,CLOSED,BLACKLISTED,NONE
+    ACTIVE, CLOSED, BLACKLISTED, NONE
 }

@@ -1,5 +1,5 @@
 package models;
 
-public class Admin extends Account{
-    
+public class Admin extends Account {
+
 }

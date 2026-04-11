@@ -8,7 +8,9 @@ public class Account {
     private AccountStatus status;
 
     public void login() {}
-    public void logout(){}
+
+    public void logout() {}
+
     public void resetPwd() {}
 
     public int getId() {
