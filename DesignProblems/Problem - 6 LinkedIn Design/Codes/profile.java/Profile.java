@@ -1,5 +1,9 @@
 package profile.java;
 
+import models.Achievement;
+import models.Analytics;
+import models.Recommendation;
+
 import java.util.List;
 
 public abstract class Profile {
